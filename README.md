@@ -7,6 +7,7 @@ This repository maintains a list of Electric Vehicle (EV) chargers and their com
 - [Contribution Guidelines](#contribution-guidelines)
 - [OCPP Versions](#ocpp-versions)
 - [EV Charger List](#ev-charger-list)
+  - [Charge Amps](#charge-amps)
   - [go-e](#go-e)
   - [Zaptec](#zaptec)
 - [Additional Resources](#additional-resources)
@@ -46,6 +47,15 @@ OCPP 2.0.1 is an update to OCPP 2.0, addressing minor corrections and improvemen
 OCPP 2.1 is the latest version of the protocol, further expanding on the capabilities introduced in OCPP 2.0.1. This version includes additional security measures, refined device management, and support for new functionalities such as ISO 15118 integration, making it suitable for the evolving EV charging ecosystem. [OCPP 2.1 Specification](https://www.openchargealliance.org/protocols/ocpp-21/).
 
 ## ⚡️ EV Charger List
+
+### Charge Amps
+
+| Model | OCPP Version | Communication | Notes | Source |
+|-------------------|---------------|----------------------|-----------------------------------------|----------------------------------|
+| Charge Amps Aura | 1.6J | ☁️ Cloud / 🔌 Direct |  | [OCPP Migration document](https://wwwchargeampscom.cdn.triggerfish.cloud/uploads/2024/08/ChargeAmps_OCPP-Migration_V3_Admins-Users-20240829.pdf) |
+| Charge Amps Dawn | 1.6J | ☁️ Cloud | Charger model not mentioned in OCPP migration docs, assuming cloud connection | Source needed! |
+| Charge Amps Halo | 1.6J | ☁️ Cloud / 🔌 Direct |  | [OCPP Migration document](https://wwwchargeampscom.cdn.triggerfish.cloud/uploads/2024/08/ChargeAmps_OCPP-Migration_V3_Admins-Users-20240829.pdf) |
+
 
 ### go-e
 
