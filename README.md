@@ -47,6 +47,15 @@ OCPP 2.1 is the latest version of the protocol, further expanding on the capabil
 
 ## ⚡️ EV Charger List
 
+### Charge Amps
+
+| Model | OCPP Version | Communication | Notes | Source |
+|-------------------|---------------|----------------------|-----------------------------------------|----------------------------------|
+| Charge Amps Aura | 1.6J | ☁️ Cloud / 🔌 Direct |  | [OCPP Migration document](https://wwwchargeampscom.cdn.triggerfish.cloud/uploads/2024/08/ChargeAmps_OCPP-Migration_V3_Admins-Users-20240829.pdf) |
+| Charge Amps Dawn | 1.6J | ☁️ Cloud | Charger model not mentioned in OCPP migration docs, assuming cloud connection | Source needed! |
+| Charge Amps Halo | 1.6J | ☁️ Cloud / 🔌 Direct |  | [OCPP Migration document](https://wwwchargeampscom.cdn.triggerfish.cloud/uploads/2024/08/ChargeAmps_OCPP-Migration_V3_Admins-Users-20240829.pdf) |
+
+
 ### go-e
 
 | Model | OCPP Version | Communication | Notes | Source |
