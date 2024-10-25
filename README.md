@@ -7,6 +7,7 @@ This repository maintains a list of Electric Vehicle (EV) chargers and their com
 - [Contribution Guidelines](#contribution-guidelines)
 - [OCPP Versions](#ocpp-versions)
 - [EV Charger List](#ev-charger-list)
+  - [Charge Amps](#charge-amps)
   - [go-e](#go-e)
   - [Zaptec](#zaptec)
 - [Additional Resources](#additional-resources)
