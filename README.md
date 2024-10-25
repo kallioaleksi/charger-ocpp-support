@@ -2,7 +2,7 @@
 
 This repository maintains a list of Electric Vehicle (EV) chargers and their compatibility with the Open Charge Point Protocol (OCPP). It includes information on the supported OCPP versions and whether the communication is direct or through the manufacturer's cloud. Contributions are welcome to keep this list up-to-date!
 
-## 📜 Table of Contents
+## Table of Contents
 
 - [Contribution Guidelines](#contribution-guidelines)
 - [OCPP Versions](#ocpp-versions)
@@ -13,7 +13,7 @@ This repository maintains a list of Electric Vehicle (EV) chargers and their com
 - [Additional Resources](#additional-resources)
 - [License](#license)
 
-## 📝 Contribution Guidelines
+## Contribution Guidelines
 
 To add or update an entry:
 1. Fork this repository.
@@ -46,7 +46,7 @@ OCPP 2.0.1 is an update to OCPP 2.0, addressing minor corrections and improvemen
 
 OCPP 2.1 is the latest version of the protocol, further expanding on the capabilities introduced in OCPP 2.0.1. This version includes additional security measures, refined device management, and support for new functionalities such as ISO 15118 integration, making it suitable for the evolving EV charging ecosystem. [OCPP 2.1 Specification](https://www.openchargealliance.org/protocols/ocpp-21/).
 
-## ⚡️ EV Charger List
+## EV Charger List
 
 ### Charge Amps
 
@@ -82,12 +82,12 @@ OCPP 2.1 is the latest version of the protocol, further expanding on the capabil
 
 Feel free to create a new section for additional brands.
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [OCPP Official Documentation](https://www.openchargealliance.org/protocols/ocpp/)
 - [OCPP FAQ](https://www.openchargealliance.org/protocols/ocpp/faq/)
 
-## 📄 License
+## License
 
 Charger OCPP Support (c) by Aleksi Kallio
 
