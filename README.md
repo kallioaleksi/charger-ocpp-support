@@ -12,6 +12,7 @@ This repository maintains a list of Electric Vehicle (EV) chargers and their com
   - [Cloud](#cloud)
   - [Direct](#direct)
 - [EV Charger List](#ev-charger-list)
+  - [ABB](#abb)
   - [Charge Amps](#charge-amps)
   - [go-e](#go-e)
   - [Zaptec](#zaptec)
@@ -77,6 +78,12 @@ As opposed to the Cloud communication type, 🔌 Direct means that the charger c
 
 ## EV Charger List
 
+### ABB
+
+| Model | OCPP Version | Communication | Notes | Source |
+|-------------------|---------------|----------------------|-----------------------------------------|----------------------------------|
+| ABB Terra AC Wallbox | 1.6J | 🔌 Direct |  | [OCPP Implementation Overview](https://library.e.abb.com/public/8f07987a3a284da6bf4e4f8f53cd6502/ABB_Terra_AC_Charger_OCPP1.6_ImplementationOverview%20_v1.8_FW1.6.6.pdf) \| [Terra AC Installation manual](https://library.e.abb.com/public/bab5dff6eb6d4459becee864124fe603/Terra%20AC%20Installation%20manual%20BCM.V3Y01.0-EN%20V006.pdf?x-sign=N4zuManms26ghdC6rFTB4bgdPTAmidsO/wkNAg7Vf9kTKIyzRCODk5BnUsFLP2aB) |
+
 ### Charge Amps
 
 | Model | OCPP Version | Communication | Notes | Source |
@@ -106,10 +113,6 @@ As opposed to the Cloud communication type, 🔌 Direct means that the charger c
 |------------------|--------------|----------------|-----------------------------------------|----------------------------------|
 | Zaptec Go | 1.6J | ☁️ Cloud / 🔌 Direct | Direct OCPP connection supported after firmware update | [Zaptec Info Hub](https://www.zaptec.com/info-hub/inside-zaptec/ocpp) |
 | Zaptec Pro | 1.6J | ☁️ Cloud | | [Zaptec Help Center](https://help.zaptec.com/hc/en-001/articles/4530001974033-Zaptec-Cloud-and-OCPP-Integration#h_01HF9AAA8G4GPFEXEYDZX0HQM8) |
-
-### More Brands...
-
-Feel free to create a new section for additional brands.
 
 ## Additional Resources
 
