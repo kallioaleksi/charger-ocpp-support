@@ -6,6 +6,9 @@ This repository maintains a list of Electric Vehicle (EV) chargers and their com
 
 - [Contribution Guidelines](#contribution-guidelines)
 - [OCPP Versions](#ocpp-versions)
+- [Communiction types](#communication-types)
+  - [Cloud](#cloud)
+  - [Direct](#direct)
 - [EV Charger List](#ev-charger-list)
   - [Charge Amps](#charge-amps)
   - [go-e](#go-e)
@@ -45,6 +48,24 @@ OCPP 2.0.1 is an update to OCPP 2.0, addressing minor corrections and improvemen
 ### 2.1
 
 OCPP 2.1 is the latest version of the protocol, further expanding on the capabilities introduced in OCPP 2.0.1. This version includes additional security measures, refined device management, and support for new functionalities such as ISO 15118 integration, making it suitable for the evolving EV charging ecosystem. [OCPP 2.1 Specification](https://www.openchargealliance.org/protocols/ocpp-21/).
+
+## Communication types
+
+### Cloud
+
+When the communication type is listed as ☁️ Cloud, it means that the charger doesn't communicate directly with the specified OCPP endpoint, but instead uses a different protocol (or it could be OCPP as well) to communicate with the manufacturer's cloud services, which will then connect to the OCPP endpoint and interact with the OCPP server. While this is a perfectly normal pattern, there are a few aspects that should be known to the end user.
+
+* The charger's OCPP functionalities can not be used without a public internet connection, since all data goes through the manufacturer's cloud
+* OCPP connectivity works only when the manufacturer's cloud works, i.e. if the manufacturer decides to end support, OCPP connectivity is lost
+* All data passes through the manufacturer's cloud
+
+### Direct
+
+As opposed to the Cloud communication type, 🔌 Direct means that the charger connects to the specified OCPP endpoint directly, with the designated OCPP version, without any intermediaries.
+
+* The charger can connect directly to local OCPP endpoints without public internet access
+* OCPP functionality isn't dependant on support from the manufacturer, it's built in to the charger
+* Data is sent as directly as possible to the OCPP endpoint
 
 ## EV Charger List
 
