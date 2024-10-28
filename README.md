@@ -16,13 +16,19 @@ This repository maintains a list of Electric Vehicle (EV) chargers and their com
 ## Contribution Guidelines
 
 To add or update an entry:
+
+### Via pull requests
 1. Fork this repository.
 2. Edit the table under the appropriate brand or create a new brand section if necessary. Keep the branches in alphabetical order.
 3. Submit a pull request with your changes.
 
+### Via issues
+1. Create a new issue from the [New Issue](https://github.com/kallioaleksi/charger-ocpp-support/issues/new/choose) page
+2. Select the appropriate labels (`new-brand` or `new-charger` for adding information, `invalid` for correcting invalid information)
+
 Please provide official sources or links to validate the information when possible.
 
-If you are unable to fork this repository and still wish to contribute, you can email the author with the details at <aleksi+ocpp@kallio.cloud>
+If you are unable to fork this repository or use issues and still wish to contribute, you can email the author with the details at <aleksi+ocpp@kallio.cloud>
 
 ## OCPP Versions
 
