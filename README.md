@@ -5,6 +5,8 @@ This repository maintains a list of Electric Vehicle (EV) chargers and their com
 ## Table of Contents
 
 - [Contribution Guidelines](#contribution-guidelines)
+  - [Via pull requests](#via-pull-requests)
+  - [Via issues](#via-issues)
 - [OCPP Versions](#ocpp-versions)
 - [EV Charger List](#ev-charger-list)
   - [Charge Amps](#charge-amps)
